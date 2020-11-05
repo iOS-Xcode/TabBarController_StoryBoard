@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B920999A2554AAB1003047CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92099992554AAB1003047CE /* AppDelegate.swift */; };
 		B920999C2554AAB1003047CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B920999B2554AAB1003047CE /* SceneDelegate.swift */; };
-		B920999E2554AAB1003047CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B920999D2554AAB1003047CE /* ViewController.swift */; };
+		B920999E2554AAB1003047CE /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B920999D2554AAB1003047CE /* TabBarController.swift */; };
 		B92099A12554AAB1003047CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B920999F2554AAB1003047CE /* Main.storyboard */; };
 		B92099A32554AAB3003047CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92099A22554AAB3003047CE /* Assets.xcassets */; };
 		B92099A62554AAB3003047CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92099A42554AAB3003047CE /* LaunchScreen.storyboard */; };
@@ -19,11 +19,14 @@
 		B92099962554AAB1003047CE /* TabBarController_StoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarController_StoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92099992554AAB1003047CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B920999B2554AAB1003047CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B920999D2554AAB1003047CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B920999D2554AAB1003047CE /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B92099A02554AAB1003047CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B92099A22554AAB3003047CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92099A52554AAB3003047CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B92099A72554AAB3003047CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92099AF2554B040003047CE /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		B92099B02554B040003047CE /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		B92099B12554B040003047CE /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,10 @@
 			children = (
 				B92099992554AAB1003047CE /* AppDelegate.swift */,
 				B920999B2554AAB1003047CE /* SceneDelegate.swift */,
-				B920999D2554AAB1003047CE /* ViewController.swift */,
+				B92099B12554B040003047CE /* screenshot1.png */,
+				B92099B02554B040003047CE /* screenshot2.png */,
+				B92099AF2554B040003047CE /* screenshot3.png */,
+				B920999D2554AAB1003047CE /* TabBarController.swift */,
 				B920999F2554AAB1003047CE /* Main.storyboard */,
 				B92099A22554AAB3003047CE /* Assets.xcassets */,
 				B92099A42554AAB3003047CE /* LaunchScreen.storyboard */,
@@ -137,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B920999E2554AAB1003047CE /* ViewController.swift in Sources */,
+				B920999E2554AAB1003047CE /* TabBarController.swift in Sources */,
 				B920999A2554AAB1003047CE /* AppDelegate.swift in Sources */,
 				B920999C2554AAB1003047CE /* SceneDelegate.swift in Sources */,
 			);
